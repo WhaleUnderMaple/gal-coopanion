@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "bridgeUrl": "http://127.0.0.1:18996",
+  "process": "",
+  "targetFile": "gal-target.json",
+  "scriptsDir": "D:/gal-companion/scripts",
+  "ffmpegPath": "",
+  "everySec": 8,
+  "diffMode": true,
+  "diffMinVal": 25,
+  "bigChangeRatio": 0.35,
+  "maxWidth": 1280,
+  "pushImage": true,
+  "maxPushesPerHour": 120
+}
