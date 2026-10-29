@@ -1,0 +1,6 @@
+# runtime state
+bridge/config.json
+bridge/luna-history.json
+bridge/*.log
+*.png
+node_modules/

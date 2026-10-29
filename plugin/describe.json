@@ -1,0 +1,14 @@
+{
+  "tools": [
+    { "name": "gal_now", "description": "Current line (speaker + text)", "parameters": { "type": "object", "properties": {} }, "tags": ["read"] },
+    { "name": "gal_wait", "description": "Wait for the next line", "parameters": { "type": "object", "properties": { "timeout": { "type": "number" } } }, "tags": ["read"] },
+    { "name": "gal_history", "description": "Recent lines", "parameters": { "type": "object", "properties": { "count": { "type": "number" } } }, "tags": ["read"] },
+    { "name": "gal_advance", "description": "Background click 'next'", "parameters": { "type": "object", "properties": { "clicks": { "type": "number" }, "process": { "type": "string" } } }, "tags": ["write"] },
+    { "name": "gal_peek", "description": "Look at the game window now", "parameters": { "type": "object", "properties": {} }, "tags": ["read"] },
+    { "name": "gal_games", "description": "List game-like windows", "parameters": { "type": "object", "properties": {} }, "tags": ["read"] },
+    { "name": "gal_use", "description": "Select the game to follow", "parameters": { "type": "object", "properties": { "process": { "type": "string" } }, "required": ["process"] }, "tags": ["write"] },
+    { "name": "gal_luna", "description": "Check / auto-start LunaTranslator", "parameters": { "type": "object", "properties": {} }, "tags": ["write"] },
+    { "name": "gal_status", "description": "Status and counters", "parameters": { "type": "object", "properties": {} }, "tags": ["read"] }
+  ],
+  "events": [ { "type": "gal.picture", "description": "Picture pushed when the game screen changes" } ]
+}

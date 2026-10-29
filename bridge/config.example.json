@@ -1,0 +1,8 @@
+{
+  "httpPort": 18996,
+  "bind": "127.0.0.1",
+  "luna": { "host": "127.0.0.1", "port": 2333 },
+  "historyLimit": 500,
+  "historyFile": "luna-history.json",
+  "logFile": "luna-bridge.log"
+}

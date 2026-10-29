@@ -1,0 +1,12 @@
+{
+  "name": "cortico-world-gal",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "description": "Visual-novel companion world for Coopanion: reads LunaTranslator text, watches the game window (changed-region pushes), and clicks next in the background.",
+  "engines": { "node": ">=22" },
+  "keywords": ["coopanion", "cortico-world", "galgame", "visual-novel", "lunatranslator", "companion"],
+  "cortico": { "kind": "world", "api": 6, "displayName": "Visual novel companion", "describe": "describe.json" }
+}
